@@ -2,7 +2,6 @@ const express = require('express');
 const cors = require('cors');
 
 const { v4: uuidv4 } = require('uuid');
-const { connectableObservableDescriptor } = require('rxjs/internal/observable/ConnectableObservable');
 
 const app = express();
 
